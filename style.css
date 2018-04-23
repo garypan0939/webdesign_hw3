@@ -1,0 +1,154 @@
+* {    
+    padding: 0;
+    margin: 0;    
+}
+html{
+    background-color: gray;
+}
+body{    
+    background-color: #EDF2C5;
+    margin:0 80px;           
+}
+header, .main_picture, .main_content{
+    width: 940px;
+    margin:0px auto;
+    padding:0 30px;
+}
+h1{
+    display: block;
+    margin-top: 53px;
+    font-family: 'Arial Black';
+    color: #778A50;    
+    font-size: 40px;
+}
+#icons{
+    display: block;
+    margin-top: 53px;    
+}
+#icons a{
+    display: block;
+    margin-left: 10px;    
+}
+#icons hr{
+    margin-left: 10px;
+    border-right: 1px #778A50;
+    height: 23px;
+}
+#icons button{
+    display: block;
+    margin-left: 10px;
+    height: 25px;          
+    color: #778A50;
+    padding: 0 5px;
+    background-color: #EDF2C5;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;    
+}
+header button:hover{
+    text-decoration:underline;
+}
+#nav{
+    background-color: #778A50;
+    margin-top: 8px;
+    padding: 16px;
+    border-radius: 5px;
+}
+#nav ul li{
+    margin: 0 16px;    
+}
+#nav a{
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #EDF2C5;
+    text-decoration: none;
+}
+#nav a:hover{
+    font-size: 18px;
+}
+.main_picture{
+    margin-top: 20px;
+    text-align : center;
+}
+.bar{
+    display: block;
+    color: #EDF2C5;
+    background-color: #778A50;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 5px;    
+}
+.content{
+    width: 455px;
+}
+.margin-right{
+    margin-right: 15px;
+}
+.margin-left{
+    margin-left: 15px;
+}
+.pictures{
+    margin-top: 10px;
+    text-align : center;
+}
+.pictures img{
+    width: 140px;
+    margin-right: 13px;
+}
+#pepper_img{
+    margin-right: 0;
+}
+#contact_info{    
+    margin-top: 10px;
+    background-color: #F7FBDA;
+    padding: 15px;
+    font-family: 'ArialMT Regular', sans-serif;
+    font-size: 12px;
+    color: #7D7D7D;
+}
+#contact_info hr{
+    width: 100%;
+    margin: 15px 0;
+}
+p.contact{
+    line-height: 160%;
+}
+footer {       
+    height: 60px;
+    margin-top: 30px;
+    background-color: #778A50;
+    color: #EDF2C5;
+    font-family: 'ArialMT', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 60px;    
+}
+.clear:after {
+    display: block;
+    content:"";
+    clear: both;
+}
+.clear ul li{
+    float: left; 
+    list-style-type:none;   
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.float_right a{
+    display: block;
+    float: left;    
+}
+.float_right hr{
+    float: left;    
+}
+.float_right button{
+    display: block;
+    float: left;    
+}
